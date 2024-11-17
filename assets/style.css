@@ -58,3 +58,13 @@ a:hover .cover_image img {
   max-width: 100%;
   height: auto;
 }
+
+.linkedin {
+  border-bottom: 5px solid transparent;
+  padding-bottom: .25rem;
+  transition: all linear 0.5s;
+}
+
+.linkedin:hover {
+  border-color: #fea120;
+}

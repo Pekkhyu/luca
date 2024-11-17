@@ -1,7 +1,20 @@
 img {
   max-width: 100%;
   height: auto;
-  border-radius:30px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: all linear 0.5s;
+}
+
+a:hover {
+  color: #fea120;
+}
+
+.border_radius {
+  border-radius: 30px;
 }
 
 .align-center {
@@ -12,4 +25,36 @@ img {
 .justify-center {
   display: flex;
   justify-content: center;
+}
+
+p span {
+  font-size: .5rem;
+}
+
+.porfolio_item {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.porfolio_item h4 {
+  margin: .75rem 0;
+  font-weight: bold;
+}
+
+.cover_image {
+  overflow: hidden;
+  border-radius: 30px;
+}
+
+.cover_image img {
+  transition: all linear 0.5s;
+}
+
+a:hover .cover_image img {
+  transform: scale(1.1);
+}
+
+.drupal_logo svg {
+  max-width: 100%;
+  height: auto;
 }

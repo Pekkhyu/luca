@@ -59,6 +59,10 @@ a:hover .cover_image img {
   height: auto;
 }
 
+.linkedin_title {
+  flex-direction: column;
+}
+
 .linkedin {
   border-bottom: 5px solid transparent;
   padding-bottom: .25rem;
@@ -67,4 +71,17 @@ a:hover .cover_image img {
 
 .linkedin:hover {
   border-color: #fea120;
+}
+
+@media screen and (min-width: 576px) {
+  .linkedin_title {
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  body {
+    max-width: 1920px;
+    margin: auto;
+  }
 }
